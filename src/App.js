@@ -7,6 +7,7 @@ import FourthComponent from './Components/Learning-examples/FourthComponent';
 import {FifthComponent} from './Components/Learning-examples/FirstComponent';
 import LearningJavaScript from './Components/Learning-examples/LearningJavaScript';
 import Counter from './Components/Counter/Counter';
+import TodoApp from './Components/TodoApplication/TodoApp';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
       <LearningJavaScript></LearningJavaScript> */} 
     {/* <PlayingwithPros prooerty1="value1" prooerty2="value2"  /> */}
 
-   <Counter/>
-  
+   {/* <Counter/> */}
+
+        <TodoApp />
     </div>
   );
 }
